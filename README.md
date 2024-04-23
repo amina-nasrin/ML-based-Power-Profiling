@@ -7,6 +7,10 @@ The trained model is based on the following polynomial equation:
 
 ![image](https://github.com/amina-nasrin/ML-based-Power-Profiling/assets/25388169/c12c99cc-52f1-4830-9e33-aad9f6217c35)
 
+The training data was collected from the SPEC benchmark.
+
+We have also done some experimantaion with Model Specific Register (MSR) and Running Average Power Limit (RAPL) for power profiling. But soon faced the shortcomming of OS specification and platform limitation. Hnece, we kept up with the ML based power model.
+
 ## Energy Profiling
 The energy consumption for a specification program is the product of runtime and amount of power consumption during that program run.
 
