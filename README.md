@@ -19,19 +19,19 @@ While it's commonly assumed that faster programs are inherently better, our rese
 
 From the presented comparion, we provide support for our theory. The optimized version has slightly higher runtime than the basic version but lower power consumption.
 
-## CPU utilization
+## CPU Utilization
 One important aspect of workload designing is adjusting CPU utilization to ensure maximum resource utilization. This framework presents CPU utilization for a particular program run at an interval of 10sample/second. It provides insight on how the program is occupying the processors to execute the program and reveals potential scopes imporvement. 
 
 ![image](https://github.com/amina-nasrin/ML-based-Power-Profiling/assets/25388169/b46dfe3e-17f1-4777-832e-e5566c967cfa)
 
-## GPU utilization
+## GPU Utilization
 In order to provide over all system performance analysis, we have done GPU utilization and GPU power consumption monitoring by using nvml - NVIDIA management library. But that portion of the work is not incorporated with this project yet.
 
-## memory utilization
+## Memory Utilization
 System performance relies largly on memory utlization and communication. So, we have done an examination of DRAM power consumption separately. This is yet to be incorporated with this work.
 
-## cache misses
+## Cache Misses
 Yet to develop.
 
-## latency
+## Latency
 Yet to develop.
