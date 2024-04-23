@@ -4,4 +4,4 @@ The repository contains code designed to profile the power consumption of a host
 # Power Profiling
 The power profiling begins operation by collecting host specifications and matching those to the trainning set in order to calculate the real-time power consumption from the trained model based on CPU utilization.
 
-P = α + β1 · ucpu + β2 · u2 . cpu + β3 · u3 . cpu
+P = α + β1 * u_cpu + β2 * u_cpu^2 + β3 * u_cpu^3
