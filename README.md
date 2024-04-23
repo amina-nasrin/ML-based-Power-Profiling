@@ -1,5 +1,5 @@
 # ML-based-Power-Profiling
-The repository contains code designed to profile the power consumption of a host system. Aim of the project is providing a comprehensive overview of system performance in one click. The profiling includes real-time power measurements, overall energy consumption for particular programs, runtime statistics, CPU and memory utilization, as well as cache misses and latency metrics. The aim of this project is to consolidate all performance-affecting parameters into a single interface, delivering them no longer than runtime constraints. This work facilitates the enhancement of workload design by offering comprehensive insights into performance factors.
+The repository contains code designed to profile the power consumption of a host system. Aim of the project is providing a comprehensive overview of system performance in one click. The profiling includes real-time power measurements, overall energy consumption for particular programs, runtime statistics, CPU, GPU, and memory utilization, as well as cache misses and latency metrics. The aim of this project is to consolidate all performance-affecting parameters into a single interface, delivering them no longer than runtime constraints. This work facilitates the enhancement of workload design by offering comprehensive insights into performance factors.
 
 # Power Profiling
 The power profiling begins operation by collecting host specifications and matching those to the trainning set in order to calculate the real-time power consumption from the trained model based on CPU utilization.
@@ -23,3 +23,10 @@ From the presented comparion, we provide support for our theory. The optimized v
 One important aspect of workload designing is adjusting CPU utilization to ensure maximum resource utilization. This framework presents CPU utilization for a particular program run at an interval of 10sample/second. It provides insight on how the program is occupying the processors to execute the program and reveals potential scopes imporvement. 
 
 ![image](https://github.com/amina-nasrin/ML-based-Power-Profiling/assets/25388169/b46dfe3e-17f1-4777-832e-e5566c967cfa)
+
+
+# GPU utilization
+The GPU monitoring of NVIDIA GPUs canbe achieved by the NVIDIA management library - nvml. We have separately used it but have not incorporated it to this work yet.
+
+# memory utilization
+Another important aspect of performance monitoring is utilization and communication with the memory. Hence, we have planned to includ the power monitoring of the DRAM as well in this work.
