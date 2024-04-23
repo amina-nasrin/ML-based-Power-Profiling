@@ -11,3 +11,6 @@ The trained model is based on the following polynomial equation:
 The energy consumption for a specification program is the product of runtime and amount of power consumption during that program run.
 
 Energy = Power X Runtime
+
+# Runtime
+While it's commonly assumed that faster programs are inherently better, our research has revealed a contradiction in this intuition. Through studying how to design workloads to maximize resource utilization efficiency, we've found that prioritizing speed alone may not always lead to optimal outcomes.
