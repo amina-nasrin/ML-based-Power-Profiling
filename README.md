@@ -22,7 +22,7 @@ From the presented comparion, we provide support for our theory. The optimized v
 # CPU utilization
 One important aspect of workload designing is adjusting CPU utilization to ensure maximum resource utilization. This framework presents CPU utilization for a particular program run at an interval of 10sample/second. It provides insight on how the program is occupying the processors to execute the program and reveals potential scopes imporvement. 
 
-![image](https://github.com/amina-nasrin/ML-based-Power-Profiling/assets/25388169/b46dfe3e-17f1-4777-832e-e5566c967cfa)
+![image](https://github.com/amina-nasrin/ML-based-Power-Profiling/assets/25388169/bff53637-75ea-4274-87be-4314005198ef)
 
 
 # GPU utilization
