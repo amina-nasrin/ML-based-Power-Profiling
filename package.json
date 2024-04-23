@@ -1,0 +1,77 @@
+{
+	"name": "greencode-powermeasurement",
+	"displayName": "GreenCode-PowerMeasurement",
+	"publisher": "hzm7",
+	"description": "Do you know how much power your code is dissipating? Now you can see!",
+	"version": "3.3.2",
+	"icon": "bobcat.png",
+	"engines": {
+		"vscode": "^1.85.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:g"
+	],
+	"main": "/dist/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "g",
+				"title": "GreenCode-PowerMeasurement"
+			}
+		],
+		"menus": {
+			"editor/context": [
+				{
+					"command": "g",
+					"group": "navigation",
+					"when": "editorTextFocus",
+					"context": [
+						"editorTextFocus"
+					]
+				}
+			]
+		}
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "vscode-test",
+		"build": "webpack"
+	},
+	"devDependencies": {
+		"@types/mocha": "^10.0.6",
+		"@types/node": "18.x",
+		"@types/vscode": "^1.85.0",
+		"@vscode/test-cli": "^0.0.4",
+		"@vscode/test-electron": "^2.3.8",
+		"eslint": "^8.54.0",
+		"typescript": "^5.3.2",
+		"webpack-cli": "^5.1.4"
+	},
+	"dependencies": {
+		"cpuinfo": "^0.1.0",
+		"csv": "^6.3.6",
+		"csv-parser": "^3.0.0",
+		"node": "^21.6.0",
+		"npm": "^10.2.0",
+		"numpy": "^0.0.1",
+		"os": "^0.1.2",
+		"pathlib": "^0.1.2",
+		"psutils": "^1.0.0",
+		"scikit-learn": "^0.1.0"
+	},
+	"__metadata": {
+		"id": "1e47113a-4d74-4562-b257-2d9253cd45ff",
+		"publisherId": "ca87139b-7443-491c-a2d4-4b1baee53b30",
+		"publisherDisplayName": "hzm7",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1705428137355,
+		"pinned": false,
+		"preRelease": false
+	}
+}
