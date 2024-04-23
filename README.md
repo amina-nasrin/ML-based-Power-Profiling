@@ -17,4 +17,4 @@ While it's commonly assumed that faster programs are inherently better, our rese
 
 ![image](https://github.com/amina-nasrin/ML-based-Power-Profiling/assets/25388169/c2084fe8-231f-40f1-ae44-c0809aa0a775)
 
-From the presented comparion, we provide support for our theory.
+From the presented comparion, we provide support for our theory. The optimized version has slightly higher runtime than the basic version but lower power consumption.
