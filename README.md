@@ -1,48 +1,25 @@
-# greencode-powermeasurement README
+# ML-based-Power-Profiling
+The repository contains code designed to profile the power consumption of a host system. Aim of the project is providing a comprehensive overview of system performance in one click. The profiling includes real-time power measurements, overall energy consumption for particular programs, runtime statistics, CPU and memory utilization, as well as cache misses and latency metrics. The aim of this project is to consolidate all performance-affecting parameters into a single interface, delivering them no longer than runtime constraints. This work facilitates the enhancement of workload design by offering comprehensive insights into performance factors.
 
-This extension is capable of performing perfromance profiling of a code regardless of OS and platform specifications.
+# Power Profiling
+The power profiling begins operation by collecting host specifications and matching those to the trainning set in order to calculate the real-time power consumption from the trained model based on CPU utilization.
+The trained model is based on the following polynomial equation:
 
-## Features
+![image](https://github.com/amina-nasrin/ML-based-Power-Profiling/assets/25388169/c12c99cc-52f1-4830-9e33-aad9f6217c35)
 
-It can be run from context menu or Command Prompt or Key Board shortcut.
-1. power profiling
-2. energy profiling
-3. runtime
-4. CPU utilization
-1. right-click in the editor. Select GreenCode-PowerMeasurement
-2. Command Prompt: GreenCode-PowerMeasurement
-3. Keyboard shortcut: Ctrl + g
-4. In the input box print command with file path
+# Energy Profiling
+The energy consumption for a specification program is the product of runtime and amount of power consumption during that program run.
 
-Example: 
-python C:/Users/helloworld.py
-C:/Users/helloworld.exe
-## Requirements
+Energy = Power X Runtime
 
-## Extension Settings
+# Runtime
+While it's commonly assumed that faster programs are inherently better, our research has revealed a contradiction in this intuition. Through studying how to design workloads to maximize resource utilization efficiency, we've found that prioritizing speed alone may not always lead to optimal outcomes.
 
-## Known Issues
+![image](https://github.com/amina-nasrin/ML-based-Power-Profiling/assets/25388169/c2084fe8-231f-40f1-ae44-c0809aa0a775)
 
+From the presented comparion, we provide support for our theory. The optimized version has slightly higher runtime than the basic version but lower power consumption.
 
-## Release Notes
+# CPU utilization
+One important aspect of workload designing is adjusting CPU utilization to ensure maximum resource utilization. This framework presents CPU utilization for a particular program run at an interval of 10sample/second. It provides insight on how the program is occupying the processors to execute the program and reveals potential scopes imporvement. 
 
-
-### 1.0.0
-
-Initial release
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-
----
-
-## Working with Markdown
-
-
-## For more information
-hzm7@txstate.edu
-**Enjoy!**
+![image](https://github.com/amina-nasrin/ML-based-Power-Profiling/assets/25388169/b46dfe3e-17f1-4777-832e-e5566c967cfa)
