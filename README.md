@@ -1,10 +1,14 @@
 # greencode-powermeasurement README
 
-This extension is designed and developed for measuring power consumption of a code regardless of platform specifications.
+This extension is capable of performing perfromance profiling of a code regardless of OS and platform specifications.
 
 ## Features
 
 It can be run from context menu or Command Prompt or Key Board shortcut.
+1. power profiling
+2. energy profiling
+3. runtime
+4. CPU utilization
 1. right-click in the editor. Select GreenCode-PowerMeasurement
 2. Command Prompt: GreenCode-PowerMeasurement
 3. Keyboard shortcut: Ctrl + g
