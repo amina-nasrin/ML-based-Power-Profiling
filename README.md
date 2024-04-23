@@ -6,3 +6,8 @@ The power profiling begins operation by collecting host specifications and match
 The trained model is based on the following polynomial equation:
 
 ![image](https://github.com/amina-nasrin/ML-based-Power-Profiling/assets/25388169/c12c99cc-52f1-4830-9e33-aad9f6217c35)
+
+# Energy Profiling
+The energy consumption for a specification program is the product of runtime and amount of power consumption during that program run.
+
+Energy = Power X Runtime
