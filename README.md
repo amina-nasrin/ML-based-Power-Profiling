@@ -29,4 +29,10 @@ One important aspect of workload designing is adjusting CPU utilization to ensur
 The GPU monitoring of NVIDIA GPUs canbe achieved by the NVIDIA management library - nvml. We have separately used it but have not incorporated it to this work yet.
 
 # memory utilization
-Another important aspect of performance monitoring is utilization and communication with the memory. Hence, we have planned to includ the power monitoring of the DRAM as well in this work.
+Another important aspect of performance monitoring is utilization and communication with the memory. Hence, we have planned to includ the power monitoring of the DRAM as well in this work. This is also developed separately, yet to incorporate in this project.
+
+# cache miss
+yet to develop
+
+# latency
+yet to develop
