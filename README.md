@@ -16,3 +16,5 @@ Energy = Power X Runtime
 While it's commonly assumed that faster programs are inherently better, our research has revealed a contradiction in this intuition. Through studying how to design workloads to maximize resource utilization efficiency, we've found that prioritizing speed alone may not always lead to optimal outcomes.
 
 ![image](https://github.com/amina-nasrin/ML-based-Power-Profiling/assets/25388169/c2084fe8-231f-40f1-ae44-c0809aa0a775)
+
+From the presented comparion, we provide support for our theory.
