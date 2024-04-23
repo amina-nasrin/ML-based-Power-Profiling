@@ -20,4 +20,6 @@ While it's commonly assumed that faster programs are inherently better, our rese
 From the presented comparion, we provide support for our theory. The optimized version has slightly higher runtime than the basic version but lower power consumption.
 
 # CPU utilization
-One important aspect of workload designing is adjusting CPU utilization to ensure maximum resource utilization. This framework presents CPU utilization for a particular program run at an interval of 10sample/second.
+One important aspect of workload designing is adjusting CPU utilization to ensure maximum resource utilization. This framework presents CPU utilization for a particular program run at an interval of 10sample/second. It provides insight on how the program is occupying the processors to execute the program and reveals potential scopes imporvement. 
+
+![image](https://github.com/amina-nasrin/ML-based-Power-Profiling/assets/25388169/b46dfe3e-17f1-4777-832e-e5566c967cfa)
